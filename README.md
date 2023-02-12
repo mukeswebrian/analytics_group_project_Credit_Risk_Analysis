@@ -9,7 +9,7 @@ Feel free to be creative in how you present your findings to answer each project
 ## Dataset:
 You are required to analyze a dataset containing credit applications and credit records provided by a bank. You will be required to provide various business insights about the bank's lending strategy.
 
-The dataset can be downloaded from here: https://drive.google.com/drive/folders/1jCi7L34c1nLUUG7W-HLhaYa-yi6LkQ2_?usp=sharing
+Data Source: Kaggle - https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
 
 
 
