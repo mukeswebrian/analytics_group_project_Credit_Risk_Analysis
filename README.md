@@ -9,6 +9,30 @@ Feel free to be creative in how you present your findings to answer each project
 ## Dataset:
 You are required to analyze a dataset containing credit applications and credit records provided by a bank. You will be required to provide various business insights about the bank's lending strategy.
 
+application_record.csv
+
+| Feature name        | Explanation                                     | Remarks                                                                        |
+|---------------------|-------------------------------------------------|--------------------------------------------------------------------------------|
+| ID                  | Client number                                   |                                                                                |
+| CODE_GENDER         | Gender                                          |                                                                                |
+| FLAG_OWN_CAR        | Is there a car                                  |                                                                                |
+| FLAG_OWN_REALTY     | Is there a property                             |                                                                                |
+| CNT_CHILDREN        | Number of children                              |                                                                                |
+| AMT_INCOME_TOTAL    | Annual income                                   |                                                                                |
+| NAME_INCOME_TYPE    | Income category                                 |                                                                                |
+| NAME_EDUCATION_TYPE | Education level                                 |                                                                                |
+| NAME_FAMILY_STATUS  | Marital status                                  |                                                                                |
+| NAME_HOUSING_TYPE   | Way of living                                   |                                                                                |
+| DAYS_BIRTH          | Birthday                                        | Count backwards from current day (0), -1 means yesterday                       |
+| DAYS_EMPLOYED       | Start date of employment                        | Count backwards from current day(0). If positive, it means the person currently unemployed. |
+| FLAG_MOBIL          | Is there a mobile phone                         |                                                                                |
+| FLAG_WORK_PHONE     | Is there a work phone                            |                                                                                |
+| FLAG_PHONE          | Is there a phone                                 |                                                                                |
+| FLAG_EMAIL          | Is there an email                                |                                                                                |
+| OCCUPATION_TYPE     | Occupation                                      |                                                                                |
+| CNT_FAM_MEMBERS     | Family size                                     |                                                                                |
+
+
 Data Source: Kaggle - https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
 
 
