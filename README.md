@@ -9,7 +9,7 @@ Feel free to be creative in how you present your findings to answer each project
 ## Dataset:
 You are required to analyze a dataset containing credit applications and credit records provided by a bank. You will be required to provide various business insights about the bank's lending strategy.
 
-application_record.csv
+#### application_record.csv
 
 | Feature name        | Explanation                                     | Remarks                                                                        |
 |---------------------|-------------------------------------------------|--------------------------------------------------------------------------------|
@@ -31,6 +31,14 @@ application_record.csv
 | FLAG_EMAIL          | Is there an email                                |                                                                                |
 | OCCUPATION_TYPE     | Occupation                                      |                                                                                |
 | CNT_FAM_MEMBERS     | Family size                                     |                                                                                |
+
+#### credit_record.csv
+
+| Feature name    | Explanation            | Remarks                                                                                |
+|-----------------|------------------------|----------------------------------------------------------------------------------------|
+| ID              | Client number          |                                                                                        |
+| MONTHS_BALANCE  | Record month           | The month of the extracted data is the starting point, backwards, 0 is the current month, -1 is the previous month, and so on |
+| STATUS          | Status                 | 0: 1-29 days past due<br>1: 30-59 days past due<br>2: 60-89 days overdue<br>3: 90-119 days overdue<br>4: 120-149 days overdue<br>5: Overdue or bad debts, write-offs for more than 150 days<br>C: paid off that month<br>X: No loan for the month |
 
 
 Data Source: Kaggle - https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
