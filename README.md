@@ -46,6 +46,9 @@ Data Source: Kaggle - https://www.kaggle.com/datasets/rikdifos/credit-card-appro
 
 
 # Project Questions:
-1. Which attributes of the provided dataset are the strongest indicators of credit risk?
-2. Are there some attributes that are highly correlated? What implications might your findings have to the bank's approach to lending?
-3. What additional data would you recommend for the bank to collect in order to make better credit risk predictions? What challenges do you anticipate?
+1. Based on the provided dataset, perform some descriptive analysis about the relationship between annual income and education level?
+2. Are there some attributes that are highly correlated? What impact might this have on your analysis?
+3. Are there some credit applicants that maybe considered as outliers? What makes them outliers?
+4. Which attributes of the provided dataset are the strongest indicators of credit risk?
+5. What implications might your findings have to the bank's approach to lending?
+6. What additional data would you recommend for the bank to collect in order to make better credit risk predictions? What challenges do you anticipate?
